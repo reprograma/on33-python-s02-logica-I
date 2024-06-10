@@ -1,16 +1,16 @@
-#Gerador de Nomes Divertidos
+# Gerador de Nomes Divertidos
 
 O Gerador de Nomes Divertidos é um programa simples criado em Python para solidificar os conhecimentos adquiridos em aula.
 
-##Finalidade
+## Finalidade
 
 Combinar palavras aleatórias para gerar um nome divertido.
 
-##Construção
+## Construção
 
 Utilizando-se de comandos simples como input e print, ele combina palavras aleatórias previamente solicitadas ao usuário.
 
-##Execuçao
+## Execuçao
 
 Clone esse repositório ou copie o código em seu próprio arquivo.
 
