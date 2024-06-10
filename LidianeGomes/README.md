@@ -12,11 +12,11 @@ Utilizando-se de comandos simples como input e print, ele combina palavras aleat
 
 ## Execuçao
 
-Clone esse repositório ou copie o código em seu próprio arquivo.
+- Clone esse repositório ou copie o código em seu próprio arquivo.
 
-Pelo terminal vá até o diretório onde o arquivo se encontra.
+- Pelo terminal, vá até o diretório onde o arquivo se encontra.
 
-Para rodar o arquivo digite o comando para rodar o Python (python OU py OU python3) e o nome do arquivo.
---
+- Para rodar o arquivo digite o comando para rodar o Python (python OU py OU python3) e o nome do arquivo.
+```
 ex.: py geradorNomes.py
---
+```
