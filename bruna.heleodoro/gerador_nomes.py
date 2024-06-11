@@ -9,6 +9,7 @@ nome_divertido = cor, animal, sobremesa
 print('Seu nome divertido é', cor, animal, sobremesa)
 
 print('======================================================')
+
 # Exercicio - Método 2 - Utilizando função:
 
 def gerar_nome_divertido():
