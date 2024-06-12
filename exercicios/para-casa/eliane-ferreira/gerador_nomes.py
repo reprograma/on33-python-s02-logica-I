@@ -4,5 +4,5 @@ sobremesa = input("digite o nome de uma sobremesa: ")
 
 
 print ("\nEstou curiosa para saber o nome do seu Pet: ")
-print(f"{animal} {cor}{sobremesa}")
+print(f"{animal} {cor} {sobremesa}")
 
