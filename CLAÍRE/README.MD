@@ -1,0 +1,1 @@
+Eu primeiro fiz um input para cada variável e depois juntei com o format todos para criar a fórmula
