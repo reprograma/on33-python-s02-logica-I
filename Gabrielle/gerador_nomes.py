@@ -23,7 +23,7 @@ def calcular_estacao_nascimento_zodiaco_chines(dia, mes):
         return 'Outonal'
 
     else:
-        return 'Inverno'
+        return 'Invernal'
 
 
 
