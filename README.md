@@ -242,12 +242,6 @@ print(f"Olá, {nome}!")
 
 ✨ **"Vocês são incríveis! Cada linha de código escrita é um passo a mais na construção de um futuro brilhante. Continuem explorando, aprendendo e crescendo. A tecnologia precisa do talento e da paixão de cada uma de vocês. Juntas, podemos transformar o mundo!"** ✨
 
----
-
-![Python Logo](https://www.vectorlogo.zone/logos/python/python-ar21.svg)
-
----
-
 💡 **Dica**: Nunca parem de aprender e colaborar. A comunidade de desenvolvedoras é grande e acolhedora. Aproveitem! 🌐💻
 
 
