@@ -2,79 +2,256 @@
   <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
 </h1>
 
-# Tema da Aula
+# Introdução ao Python e Conceitos Básicos
 
-Turma Online X | Semana X | 202X | Professora X
+Turma Online 33 | Semana 2 | 2024 | Professora [Jenifer Plácido](https://www.linkedin.com/in/jenifer-pl%C3%A1cido-00b5611ab/)
 
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
+# 🌟 Introdução ao Python e Conceitos Básicos 🌟
 
-### Resumo
-O que veremos na aula de hoje?
-* [Tema1](#tema1)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
+## 📚 Tópicos Abordados
 
-## Conteúdo
-### Tema1 
-1. [Tópico 1](#topico1)
-2. [Tópico 2](#topico2)
-### Tema2 
-1. [Tópico 3](#topico3)
-   * [Subtópico 1](#subtopico1)
-   * [Subtópico 2](#subtopico2)
-   
-### Tema3
-1. [Tópico 4](#topico4)
+1. **Introdução **
+2. **Tipos de Valores e Variáveis**
+3. **Inputs**
+4. **Operadores**
+5. **Formatação**
+6. **Funções**
+7. **Links Úteis**
 
-### Tema1 
+---
 
-#### Topico1
+## 1. Introdução 🧭
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices. Nunc ante massa, dictum eget justo eget, feugiat tincidunt metus.
+Python é uma linguagem de programação versátil e fácil de aprender, amplamente utilizada em diversas áreas como desenvolvimento web, ciência de dados, automação e inteligência artificial. Mesmo se você nunca programou antes, não se preocupe! Este guia vai te ajudar a dar os primeiros passos.
 
- #### Topico2
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Donec erat mauris, laoreet in tortor vel
-  - Nunc ante massa, dictum eget justo eget, feugiat tincidunt.
+### Por que aprender Python?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit.
+- **Fácil de aprender**: Sintaxe simples e clara.
+- **Versátil**: Usada em muitas áreas diferentes.
+- **Comunidade acolhedora**: Suporte e recursos disponíveis.
 
-### Tema2
-#### Topico3
-* [Subtópico 1](#subtopico1)
-* [Subtópico 2](#Subtopico2)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+---
 
-##### Subtopico1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+## 2. Tipos de Valores e Variáveis 📊
 
-##### Subtopico2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+### Tipos de Valores
 
-### Tema3
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
+- **Inteiros (`int`)**: Números inteiros como `1`, `42`, `-3`.
+- **Ponto Flutuante (`float`)**: Números decimais como `3.14`, `-0.001`.
+- **Strings (`str`)**: Sequências de caracteres como `"Olá, mundo!"`.
+- **Booleanos (`bool`)**: Verdadeiro (`True`) ou Falso (`False`).
 
-***
-### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+### Variáveis
 
-### Material da aula 
+Variáveis são como "caixas" onde você pode guardar valores para usar depois.
 
-### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+#### Exemplo:
+
+```python
+nome = "Jenifer"  # Variável do tipo string
+idade = 34  # Variável do tipo inteiro
+altura = 1.67  # Variável do tipo float
+```
+
+#### Dicas
+
+- Escolha nomes de variáveis que façam sentido.
+- Evite usar palavras reservadas do Python como nomes de variáveis.
+
+---
+
+## 3. Inputs 🎤
+
+Para interagir com o usuário e obter informações, usamos a função `input()`.
+
+### Exemplo:
+
+```python
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+
+# Convertendo idade para inteiro
+idade = int(idade)
+
+print(f"Olá, {nome}! Você tem {idade} anos.")
+```
+
+#### Nota
+
+- `input()` sempre retorna uma string. Converta para outros tipos conforme necessário.
+
+---
+
+## 4. Operadores ➕
+
+### Operadores Aritméticos
+
+- **Adição (`+`)**, **Subtração (`-`)**, **Multiplicação (`*`)**, **Divisão (`/`)**, **Exponenciação (`**`)**.
+- **Módulo (`%`)**: Resto da divisão.
+- **Divisão Inteira (`//`)**: Quociente da divisão inteira.
+
+#### Exemplo:
+
+```python
+a = 10
+b = 3
+
+print(a + b)  # 13
+print(a - b)  # 7
+print(a * b)  # 30
+print(a / b)  # 3.3333...
+print(a % b)  # 1
+print(a ** b)  # 1000
+print(a // b)  # 3
+```
+
+### Operadores de Comparação e Lógicos
+
+- **Igual (`==`)**, **Diferente (`!=`)**, **Maior (`>`)**, **Menor (`<`)**.
+- **Maior ou Igual (`>=`)**, **Menor ou Igual (`<=`)**.
+- **E (`and`)**, **Ou (`or`)**, **Não (`not`)**.
+
+#### Exemplo:
+
+```python
+a = 10
+b = 3
+
+print(a == b)  # False
+print(a != b)  # True
+print(a > b)  # True
+print(a < b)  # False
+print(a >= b)  # True
+print(a <= b)  # False
+print(a and b)  # True
+print(a or b)  # 10
+print(not a)  # False
+```
+
+---
+
+## 5. Formatação ✨
+
+Formate strings para exibir informações de maneira clara e organizada usando `f-strings` e métodos de strings.
+
+### `f-strings`
+
+Use `f-strings` para inserir variáveis dentro de strings.
+
+#### Exemplo:
+
+```python
+nome = "Jenifer"
+idade = 34
+altura = 1.67
+
+print(f"Meu nome é {nome}, eu tenho {idade} anos e minha altura é {altura} metros.")
+```
+
+### Métodos de Strings
+
+- **`.upper()`**, **`.lower()`**, **`.title()`**.
+- **`.strip()`**, **`.replace(old, new)`**, **`.find(sub)`**.
+
+#### Exemplo:
+
+```python
+texto = " Olá, mundo! "
+
+print(texto.upper())  # " OLÁ, MUNDO! "
+print(texto.lower())  # " olá, mundo! "
+print(texto.title())  # " Olá, Mundo! "
+print(texto.strip())  # "Olá, mundo!"
+print(texto.replace("mundo", "Python"))  # " Olá, Python! "
+print(texto.find("mundo"))  # 6
+```
+
+---
+
+## 6. Funções 📋
+
+### Funções em Python
+
+Funções são blocos de código reutilizáveis que executam uma tarefa específica.
+
+#### Funções com Retorno
+
+Funções que retornam um valor após a execução.
+
+##### Exemplo:
+
+```python
+def soma(a, b):
+    return a + b
+
+resultado = soma(3, 5)
+print(resultado)  # 8
+```
+
+#### Funções sem Retorno
+
+Funções que executam uma ação sem retornar um valor.
+
+##### Exemplo:
+
+```python
+def saudacao(nome):
+    print(f"Olá, {nome}!")
+
+saudacao("Jenifer")  # Saída: "Olá, Jenifer!"
+```
+
+### Funções Internas de Python
+
+Python possui várias funções internas que facilitam o desenvolvimento de software.
+
+#### Exemplos:
+
+- **`len()`**: Retorna o número de itens de um objeto (tamanho).
+
+```python
+texto = "Olá, mundo!"
+quantidade_caracteres = len(texto)
+print(f"O texto possui {quantidade_caracteres} caracteres.")
+```
+
+- **`print()`**: Exibe uma mensagem na tela ou outro dispositivo de saída.
+
+```python
+print("Olá, mundo!")
+```
+
+- **`input()`**: Obtém entrada do usuário através do teclado.
+
+```python
+nome = input("Digite seu nome: ")
+print(f"Olá, {nome}!")
+```
+
+---
+
+## 7. Links Úteis 🔗
+
+- [Documentação Oficial do Python](https://docs.python.org/3/)
+- [Python para Iniciantes](https://www.python.org/about/gettingstarted/)
+- [Exercícios de Python](https://www.w3schools.com/python/python_exercises.asp)
+- [Comunidade Python Brasil](https://python.org.br/)
+- [Guia Completo de Markdown](https://www.markdownguide.org/)
+
+---
+
+✨ **"Vocês são incríveis! Cada linha de código escrita é um passo a mais na construção de um futuro brilhante. Continuem explorando, aprendendo e crescendo. A tecnologia precisa do talento e da paixão de cada uma de vocês. Juntas, podemos transformar o mundo!"** ✨
+
+---
+
+![Python Logo](https://www.vectorlogo.zone/logos/python/python-ar21.svg)
+
+---
+
+💡 **Dica**: Nunca parem de aprender e colaborar. A comunidade de desenvolvedoras é grande e acolhedora. Aproveitem! 🌐💻
 
 
 <p align="center">
-Desenvolvido com :purple_heart:  
+Desenvolvido com :purple_heart: por Jenifer Plácido
 </p>
 
